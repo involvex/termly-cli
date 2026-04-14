@@ -137,7 +137,7 @@ termly list          # Quick list
 
 ## Supported AI Tools
 
-Termly CLI supports **22+ interactive terminal-based AI coding assistants**:
+Termly CLI supports **23+ interactive terminal-based AI coding assistants**:
 
 ### Official Tools from Major Companies
 - **Claude Code** (Anthropic) - AI coding assistant
@@ -148,6 +148,7 @@ Termly CLI supports **22+ interactive terminal-based AI coding assistants**:
 - **Google Gemini CLI** (Google) - 1M token context window
 - **Grok CLI** (xAI) - X.AI's coding assistant
 - **OpenAI Codex CLI** (OpenAI) - Code generation model
+- **Qwen Code** (Alibaba) - Agentic coding CLI optimized for Qwen3-Coder models
 
 ### Popular Open-Source Tools
 - **Aider** - AI pair programming (35k+ stars)
