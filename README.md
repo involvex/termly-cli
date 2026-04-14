@@ -2,13 +2,14 @@
 
 Access your AI coding assistants from any device. Works with Claude Code, Aider, GitHub Copilot, and any terminal-based AI tool.
 
-## What's New in v1.9
+## What's New in v1.9.5
 
-- 🎯 **Pi Coding Agent** - Support for minimal AI coding agent with extensions and 15+ LLM providers
-- 🚀 **Kilo Code CLI** - Full TUI support for agentic engineering CLI with 500+ models
-- 🖥️ **Enhanced TUI** - Improved TUI mode for Kilo Code with alternate screen buffer
+- 🐼 **Qwen Code** - Added support for Alibaba's agentic coding CLI optimized for Qwen3-Coder models
+- 🔒 **Security** - Patched 8 Dependabot alerts (axios, lodash, ajv, follow-redirects)
 
 **Previous versions:**
+- **v1.9.3** - Handle `pairing_expired` error from server on reconnect
+- **v1.9** - Pi Coding Agent, Kilo Code CLI, enhanced TUI mode
 - **v1.8** - Added Pi Coding Agent and Kilo Code CLI support
 - **v1.7** - TUI mode support, OpenCode integration, smarter reconnection
 - **v1.5** - Push notifications support, improved session stability
@@ -137,7 +138,7 @@ termly list          # Quick list
 
 ## Supported AI Tools
 
-Termly CLI supports **22+ interactive terminal-based AI coding assistants**:
+Termly CLI supports **23+ interactive terminal-based AI coding assistants**:
 
 ### Official Tools from Major Companies
 - **Claude Code** (Anthropic) - AI coding assistant
@@ -148,6 +149,7 @@ Termly CLI supports **22+ interactive terminal-based AI coding assistants**:
 - **Google Gemini CLI** (Google) - 1M token context window
 - **Grok CLI** (xAI) - X.AI's coding assistant
 - **OpenAI Codex CLI** (OpenAI) - Code generation model
+- **Qwen Code** (Alibaba) - Agentic coding CLI optimized for Qwen3-Coder models
 
 ### Popular Open-Source Tools
 - **Aider** - AI pair programming (35k+ stars)
